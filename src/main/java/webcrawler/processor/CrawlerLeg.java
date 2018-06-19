@@ -19,7 +19,7 @@ import java.util.List;
 
 @Service
 public class CrawlerLeg {
-    private final String WEBSITE_URL = "http//localhost:8000";
+    private final String WEBSITE_URL = "http://localhost:8000";
     private int id = 0;
 
     @Autowired
