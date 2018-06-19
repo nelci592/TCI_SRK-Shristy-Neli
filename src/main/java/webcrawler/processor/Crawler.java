@@ -39,6 +39,7 @@ public class Crawler {
             }
             boolean success = util.searchForWord(searchWord);
 
+            currentUrl = nextUrl;
             if (success) {
                 BaseModel entity = this.mainDao.parse(util.getDivWithMediaDetails());
                 if(entity!= null) {
@@ -48,6 +49,8 @@ public class Crawler {
                     }
                 }
             }
+
+
             util.crawl(currentUrl);
             this.pageToVist.addAll(util.getLinks());
         }
