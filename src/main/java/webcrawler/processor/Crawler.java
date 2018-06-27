@@ -22,8 +22,7 @@ public class Crawler {
     private BaseDAO mainDao;
 
     @Autowired
-     private CrawlUtil util;
-
+    private CrawlUtil util;
     public List<BaseModel> search(String url , String searchWord) {
 
         List<BaseModel> entities=null;
@@ -49,8 +48,6 @@ public class Crawler {
                     }
                 }
             }
-
-
             util.crawl(currentUrl);
             this.pageToVist.addAll(util.getLinks());
         }

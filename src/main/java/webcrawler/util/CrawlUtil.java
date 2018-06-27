@@ -79,8 +79,6 @@ public class CrawlUtil {
         return this.htmlDocument.body().select("div." + this.div);
     }
 
-
-
     public String getBody() {
         return  this.htmlDocument.body().text();
     }

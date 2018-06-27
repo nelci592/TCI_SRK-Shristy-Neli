@@ -1,9 +1,8 @@
 package webcrawler.util;
 
-        import org.junit.Test;
-        import org.mockito.InjectMocks;
-
-        import static org.junit.Assert.*;
+import org.junit.Test;
+import org.mockito.InjectMocks;
+import static org.junit.Assert.*;
 
 public class CrawlUtilTest {
 
