@@ -19,8 +19,6 @@ public class CrawlUtilTest {
 
     private final String WEB_SITE_URL ="http:/localhost:8000";
 
-
-
     @InjectMocks
     private CrawlUtil mockUtil;
 
