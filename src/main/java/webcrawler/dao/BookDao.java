@@ -10,7 +10,7 @@ import java.util.Arrays;
 
 
 @Repository
-public class BookDao implements BaseDAO {
+public class BookDao extends BaseDao {
     Book book;
 
     public BookDao(){

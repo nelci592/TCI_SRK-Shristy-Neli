@@ -4,7 +4,9 @@ import junitparams.JUnitParamsRunner;
 import junitparams.Parameters;
 import org.junit.Assert;
 import org.junit.Before;
+import org.junit.Rule;
 import org.junit.Test;
+import org.junit.rules.ExpectedException;
 import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
 import webcrawler.exceptions.CrawlFirstException;
@@ -18,6 +20,19 @@ import static org.junit.Assert.*;
 public class CrawlUtilTest {
 
     private final String WEB_SITE_URL ="http:/localhost:8000";
+
+    @Rule
+    public ExpectedException exception = ExpectedException.none();
+
+
+
+    private static Object[] getSearchWords() {
+        return new Object[] {
+                "Forrest Gump",
+                "elvis",
+
+        };
+    }
 
     @InjectMocks
     private CrawlUtil mockUtil;
@@ -48,4 +63,11 @@ public class CrawlUtilTest {
         }
     }
 
+
+    @Test
+    @Parameters(method = "getSearchWords")
+    public void isSearchwordPresentTest(String searchword ){
+        mockUtil.crawl(WEB_SITE_URL);
+        assertTrue(mockUtil.searchForWord(searchword));
+    }
 }

@@ -4,6 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 import webcrawler.dao.BaseDAO;
+import webcrawler.dao.BaseDao;
 import webcrawler.model.BaseModel;
 import webcrawler.util.CrawlUtil;
 
@@ -20,8 +21,8 @@ public class Crawler {
     public int pagesExplored;
     public int searchDepth;
 
-    @Autowired
-    private BaseDAO mainDao;
+
+    private BaseDao mainDao;
 
     @Autowired
     private CrawlUtil util;

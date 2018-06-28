@@ -17,9 +17,9 @@ public class CrawlerService {
     @Autowired
     private CrawlerLeg crawleg;
 
-    @RequestMapping(method = RequestMethod.GET , produces = {"application/json" })
+    @RequestMapping( method = RequestMethod.GET , produces = {"application/json" })
     public WholeSiteResponse getAll(@PathVariable("type") final String type) {
-        return crawleg.crawlWholeSite(" " , type);
+        return crawleg.crawlWholeSite("" , type);
     }
 
     @RequestMapping(value = "/{searchword}" , method = RequestMethod.GET ,  produces = {"application/json"})

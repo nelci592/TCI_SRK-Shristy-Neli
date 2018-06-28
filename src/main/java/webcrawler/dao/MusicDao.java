@@ -6,7 +6,7 @@ import org.springframework.stereotype.Repository;
 import webcrawler.model.Music;
 
 @Repository
-public class MusicDao implements  BaseDAO{
+public class MusicDao extends BaseDao{
     private Music music;
 
     public MusicDao(){

@@ -8,7 +8,7 @@ import webcrawler.model.Movie;
 import java.util.ArrayList;
 
 @Repository
-public class MovieDao implements BaseDAO {
+public class MovieDao extends BaseDao {
 
     Movie movie;
 
