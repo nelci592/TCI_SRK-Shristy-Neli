@@ -7,6 +7,7 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
+import org.mockito.junit.MockitoJUnitRunner;
 import webcrawler.model.BaseModel;
 import webcrawler.processor.response.SpecificResponse;
 import webcrawler.processor.response.WholeSiteResponse;
@@ -17,7 +18,7 @@ import static org.junit.Assert.*;
 import static org.mockito.Mockito.when;
 
 
-@RunWith(JUnitParamsRunner.class)
+@RunWith(MockitoJUnitRunner.class)
 public class CrawlerLegTest {
 
     @InjectMocks
@@ -37,5 +38,4 @@ public class CrawlerLegTest {
     public void isCrawlerNotNull() {
         assertNotNull(mockCrawler);
     }
-
 }

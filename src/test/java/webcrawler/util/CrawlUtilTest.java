@@ -37,19 +37,19 @@ public class CrawlUtilTest {
     @InjectMocks
     private CrawlUtil mockUtil;
 
+    @Before
+    public void init() {
+        mockUtil = new CrawlUtil();
+    }
+
     @Test
     public void pageIsCrawled() {
         assertTrue(mockUtil.crawl(WEB_SITE_URL));
     }
 
-    @Test(expected = IllegalArgumentException.class)
+    @Test(expected = CrawlFirstException.class)
     public void isWebsiteCrawledCrawlExceptionTest() {
-        try {
             mockUtil.searchForWord("elvis");
-        }
-        catch (CrawlFirstException e) {
-            Assert.fail(String.format("THere was an unexpected %1$s thrown. Exception message: %2$s", e.getClass(), e.getMessage()));
-        }
     }
 
 
