@@ -1,6 +1,6 @@
 package webcrawler.model;
 
-public  abstract class BaseModel {
+public abstract class BaseModel {
     private int id;
     private String name;
     private String genre;
@@ -46,5 +46,4 @@ public  abstract class BaseModel {
     public void setYear(String year) {
         this.year = year;
     }
-
 }

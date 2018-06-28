@@ -1,7 +1,10 @@
 package webcrawler.processor;
 
+import junitparams.JUnitParamsRunner;
+import net.bytebuddy.implementation.bind.annotation.RuntimeType;
 import org.apache.tomcat.util.modeler.BaseModelMBean;
 import org.junit.Test;
+import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import webcrawler.model.BaseModel;
@@ -13,6 +16,8 @@ import java.util.List;
 import static org.junit.Assert.*;
 import static org.mockito.Mockito.when;
 
+
+@RunWith(JUnitParamsRunner.class)
 public class CrawlerLegTest {
 
     @InjectMocks

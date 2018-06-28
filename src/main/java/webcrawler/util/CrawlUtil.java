@@ -6,6 +6,7 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 import org.springframework.stereotype.Component;
+import webcrawler.exceptions.CrawlFirstException;
 
 import java.io.IOException;
 import java.util.LinkedList;
@@ -21,6 +22,11 @@ public class CrawlUtil {
     private Document htmlDocument;
 
     public boolean crawl (String url) {
+
+        if(url.isEmpty()){
+            throw new IllegalArgumentException("THe url should not be empty !");
+        }
+
         try {
             Connection connection = Jsoup.connect(url).userAgent(USER_AGENT);
             Document htmlDocument = connection.get();
@@ -42,7 +48,12 @@ public class CrawlUtil {
 
             // Add all the links on the page to the list of the links :
             for (Element link : linksOnpage) {
-                this.links.add(link.absUrl("href"));
+                String checkLink = link.absUrl("href");
+
+                // Check if the links contains twitter or facebook "
+                if(!checkLink.contains("facebook")   && !checkLink.contains("twitter")) {
+                    this.links.add(checkLink);
+                }
             }
             return true;
         } catch (IOException e) {
@@ -55,11 +66,10 @@ public class CrawlUtil {
      * Function to search for specific word:
      *
      */
-    public boolean searchForWord(String searchWord){
+    public boolean searchForWord(String searchWord)  {
         // Defensive coding . This method should be usede only after successful crawl.
         if (this.htmlDocument == null) {
-            System.out.println("ERROR! call crawl before performing analysis on the document.");
-            return false;
+           throw new CrawlFirstException("Error! you need to crawl the website first.");
         }
 
         System.out.println("Searching for the word");

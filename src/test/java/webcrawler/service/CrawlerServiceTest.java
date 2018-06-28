@@ -1,7 +1,12 @@
 package webcrawler.service;
 
+import junitparams.JUnitParamsRunner;
+import org.junit.runner.RunWith;
+
 import static org.junit.Assert.*;
 
-public class CrawlerServiceTest     {
+
+@RunWith(JUnitParamsRunner.class)
+public class CrawlerServiceTest{
 
 }

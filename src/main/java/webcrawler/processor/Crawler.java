@@ -19,6 +19,8 @@ public class Crawler {
     private List<String> pageToVist = new ArrayList<>();
     public int pagesExplored;
     public int searchDepth;
+
+    @Autowired
     private BaseDAO mainDao;
 
     @Autowired
