@@ -7,20 +7,7 @@
   <component name="ChangeListManager">
     <list default="true" id="11618c99-4551-4d11-bbc7-7e7cdcb3cb6a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/webcrawler/dao/BookDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/webcrawler/dao/BookDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/webcrawler/dao/MovieDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/webcrawler/dao/MovieDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/webcrawler/dao/MusicDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/webcrawler/dao/MusicDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/webcrawler/model/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/webcrawler/model/Book.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/webcrawler/processor/Crawler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/webcrawler/processor/Crawler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/webcrawler/service/CrawlerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/webcrawler/service/CrawlerService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/webcrawler/util/CrawlUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/webcrawler/util/CrawlUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webcrawler/dao/BookDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/webcrawler/dao/BookDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webcrawler/dao/MovieDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/webcrawler/dao/MovieDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webcrawler/dao/MusicDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/webcrawler/dao/MusicDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/webcrawler/processor/Crawler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/webcrawler/processor/Crawler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webcrawler/service/CrawlerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/webcrawler/service/CrawlerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/webcrawler/processor/CrawlerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/webcrawler/util/CrawlUtilTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/webcrawler/util/CrawlUtilTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -45,8 +32,20 @@
       <file leaf-file-name="Crawler.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/webcrawler/processor/Crawler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="41" selection-start-line="41" selection-end-line="41" />
+            <state relative-caret-position="771">
+              <caret line="57" column="9" lean-forward="true" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CrawlUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/webcrawler/util/CrawlUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="236">
+              <caret line="71" selection-start-line="71" selection-end-line="71" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -63,13 +62,40 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CrawlUtilTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/webcrawler/util/CrawlUtilTest.java">
+      <file leaf-file-name="IllegalArgumentException.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/webcrawler/exceptions/IllegalArgumentException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+            <state relative-caret-position="90">
+              <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/webcrawler/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CrawlUtilTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/webcrawler/util/CrawlUtilTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="460">
+              <caret line="68" column="60" lean-forward="true" selection-start-line="68" selection-start-column="60" selection-end-line="68" selection-end-column="60" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#865#866#0" expanded="true" />
+                <element signature="e#906#907#0" expanded="true" />
+                <element signature="e#947#948#0" expanded="true" />
+                <element signature="e#1003#1004#0" expanded="true" />
+                <element signature="e#1112#1113#0" expanded="true" />
+                <element signature="e#1163#1164#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -87,50 +113,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Exception.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///usr/java/jdk1.8.0_121/src.zip!/java/lang/Exception.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="65" selection-start-line="65" selection-end-line="65" />
-              <folding>
-                <element signature="e#1693#1694#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Throwable.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///usr/java/jdk1.8.0_121/src.zip!/java/lang/Throwable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="266" selection-start-line="266" selection-end-line="266" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="CrawlerLegTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/webcrawler/processor/CrawlerLegTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="40" column="1" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
+            <state relative-caret-position="330">
+              <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Object.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///usr/java/jdk1.8.0_121/src.zip!/java/lang/Object.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="62" column="28" lean-forward="true" selection-start-line="62" selection-start-column="28" selection-end-line="62" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CrawlerLeg.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CrawlerLeg.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/webcrawler/processor/CrawlerLeg.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="57" selection-start-line="57" selection-end-line="57" />
+            <state relative-caret-position="557">
+              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -542,7 +538,6 @@
         <option value="$PROJECT_DIR$/src/main/java/webcrawler/model/BaseModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/webcrawler/model/Book.java" />
         <option value="$PROJECT_DIR$/src/main/java/webcrawler/dao/BaseDao.java" />
-        <option value="$PROJECT_DIR$/src/test/java/webcrawler/processor/CrawlerLegTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/webcrawler/service/CrawlerServiceTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/webcrawler/exceptions/JsoupConnectionException.java" />
         <option value="$PROJECT_DIR$/src/main/java/webcrawler/exceptions/IllegalArgumentException.java" />
@@ -551,9 +546,10 @@
         <option value="$PROJECT_DIR$/src/main/java/webcrawler/dao/BookDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/webcrawler/dao/MovieDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/webcrawler/dao/MusicDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/webcrawler/processor/Crawler.java" />
         <option value="$PROJECT_DIR$/src/main/java/webcrawler/service/CrawlerService.java" />
+        <option value="$PROJECT_DIR$/src/test/java/webcrawler/processor/CrawlerLegTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/webcrawler/util/CrawlUtilTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/webcrawler/processor/Crawler.java" />
       </list>
     </option>
   </component>
@@ -586,107 +582,6 @@
               <item name="webpagecrawler" type="b2602c69:ProjectViewProjectNode" />
               <item name="webpagecrawler" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
-            <path>
-              <item name="webpagecrawler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webpagecrawler" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webpagecrawler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webpagecrawler" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="webpagecrawler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webpagecrawler" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webpagecrawler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webpagecrawler" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="webcrawler" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webpagecrawler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webpagecrawler" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="webcrawler" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webpagecrawler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webpagecrawler" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="webcrawler" type="462c0819:PsiDirectoryNode" />
-              <item name="processor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webpagecrawler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webpagecrawler" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="webcrawler" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webpagecrawler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webpagecrawler" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="webcrawler" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webpagecrawler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webpagecrawler" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="webpagecrawler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webpagecrawler" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webpagecrawler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webpagecrawler" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="webcrawler" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webpagecrawler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webpagecrawler" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="webcrawler" type="462c0819:PsiDirectoryNode" />
-              <item name="processor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webpagecrawler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webpagecrawler" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="webcrawler" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -704,7 +599,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/tci-final" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../samplecsvReader" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -738,9 +633,55 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.CrawlUtilTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="CrawlUtilTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="webpagecrawler_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webcrawler.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="webcrawler.util" />
+      <option name="MAIN_CLASS_NAME" value="webcrawler.util.CrawlUtilTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="CrawlerLegTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="webpagecrawler_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webcrawler.processor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="webcrawler.processor" />
+      <option name="MAIN_CLASS_NAME" value="webcrawler.processor.CrawlerLegTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -784,6 +725,17 @@
       <properties />
       <listeners />
     </configuration>
+    <list>
+      <item itemvalue="Spring Boot.Main" />
+      <item itemvalue="JUnit.CrawlUtilTest" />
+      <item itemvalue="JUnit.CrawlerLegTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CrawlUtilTest" />
+        <item itemvalue="JUnit.CrawlerLegTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -811,7 +763,7 @@
       <workItem from="1530045124905" duration="743000" />
       <workItem from="1530085183253" duration="15538000" />
       <workItem from="1530133112100" duration="2791000" />
-      <workItem from="1530157394941" duration="7986000" />
+      <workItem from="1530157394941" duration="9797000" />
     </task>
     <task id="LOCAL-00001" summary="Added few unit tests:">
       <created>1529358006953</created>
@@ -848,15 +800,57 @@
       <option name="project" value="LOCAL" />
       <updated>1530163750345</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added some parameterized tests and removed th Dao test">
+      <created>1530167042861</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1530167042861</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Made changes in the the test methods.">
+      <created>1530167633833</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1530167633833</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="CrawlUtilTest - 2018.06.28 at 08h 25m 52s.xml">
+      <configuration name="CrawlUtilTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CrawlerLegTest - 2018.06.28 at 08h 26m 17s.xml">
+      <configuration name="CrawlerLegTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CrawlUtilTest - 2018.06.28 at 08h 26m 22s.xml">
+      <configuration name="CrawlUtilTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CrawlUtilTest - 2018.06.28 at 08h 29m 21s.xml">
+      <configuration name="CrawlUtilTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CrawlUtilTest - 2018.06.28 at 08h 30m 03s.xml">
+      <configuration name="CrawlUtilTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CrawlUtilTest - 2018.06.28 at 08h 30m 13s.xml">
+      <configuration name="CrawlUtilTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CrawlUtilTest - 2018.06.28 at 08h 31m 05s.xml">
+      <configuration name="CrawlUtilTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CrawlUtilTest - 2018.06.28 at 08h 32m 10s.xml">
+      <configuration name="CrawlUtilTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CrawlUtilTest - 2018.06.28 at 08h 33m 21s.xml">
+      <configuration name="CrawlUtilTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67455000" />
+    <option name="totallyTimeSpent" value="69266000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="15" side_tool="true" />
@@ -868,7 +862,7 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.3125" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3125" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" order="8" weight="0.32805908" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
@@ -909,7 +903,9 @@
     <MESSAGE value="Added the tests." />
     <MESSAGE value="Added the exceptions and tests in crawl util ." />
     <MESSAGE value="Created JAvadoc for the project." />
-    <option name="LAST_COMMIT_MESSAGE" value="Created JAvadoc for the project." />
+    <MESSAGE value="Added some parameterized tests and removed th Dao test" />
+    <MESSAGE value="Made changes in the the test methods." />
+    <option name="LAST_COMMIT_MESSAGE" value="Made changes in the the test methods." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -933,7 +929,7 @@
           <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="24" />
+      <option name="time" value="25" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -948,16 +944,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/webcrawler/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1052,13 +1038,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/webcrawler/exceptions/IllegalArgumentException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -1218,16 +1197,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/webcrawler/util/CrawlUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="71" selection-start-line="71" selection-end-line="71" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/webcrawler/exceptions/CrawlFirstException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -1289,37 +1258,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/webcrawler/processor/CrawlerLegTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="40" column="1" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/webcrawler/service/CrawlerService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/webcrawler/processor/CrawlerLeg.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="57" selection-start-line="57" selection-end-line="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/webcrawler/processor/Crawler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1333,10 +1275,70 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/webcrawler/util/CrawlUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/webcrawler/processor/CrawlerLegTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/webcrawler/util/CrawlUtilTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+        <state relative-caret-position="460">
+          <caret line="68" column="60" lean-forward="true" selection-start-line="68" selection-start-column="60" selection-end-line="68" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#865#866#0" expanded="true" />
+            <element signature="e#906#907#0" expanded="true" />
+            <element signature="e#947#948#0" expanded="true" />
+            <element signature="e#1003#1004#0" expanded="true" />
+            <element signature="e#1112#1113#0" expanded="true" />
+            <element signature="e#1163#1164#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/webcrawler/exceptions/IllegalArgumentException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/webcrawler/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/webcrawler/processor/Crawler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="771">
+          <caret line="57" column="9" lean-forward="true" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/webcrawler/processor/CrawlerLeg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="557">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

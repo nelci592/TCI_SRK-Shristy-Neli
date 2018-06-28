@@ -22,10 +22,12 @@ public class Crawler {
     public int searchDepth;
 
 
+
     private BaseDao mainDao;
 
     @Autowired
     private CrawlUtil util;
+
     public List<BaseModel> search(String url , String searchWord) {
 
         List<BaseModel> entities=null;
